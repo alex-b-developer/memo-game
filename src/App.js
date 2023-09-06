@@ -3,7 +3,9 @@ import { useState, useEffect } from 'react';
 import Board from './components/Board/Board'
 
 //const itemList = ['A','B','C','D','E','F','G','H']; 
-const itemList = [...'💣🧤🎩🌮🎱🌶🍕🦖'];
+//const itemList = [...'💣🧤🎩🌮🎱🌶🍕🦖'];
+//const itemList = [...'✈✿☂♞☻♠♫♛'];
+const itemList = [...'12345678'];
 
 const App = () => {
   const [memoCards, setMemoCards] = useState([]); //Estado de las cartas, array de objetos.
